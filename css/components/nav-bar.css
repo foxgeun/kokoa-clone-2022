@@ -8,9 +8,40 @@
     border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 .nav_list{
+    
     display: flex;
     justify-content: space-between;
 }
 .nav_link{
-    color:inherit
+    position: relative;
+    color:inherit;
+    
+}
+.nav__notification{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    right: 285px;
+    top: 3mm;
+}
+
+on__notification{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    display:block;
 }
